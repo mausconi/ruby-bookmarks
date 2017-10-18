@@ -4,7 +4,7 @@ This is a curated collection of essential Ruby and Ruby on Rails resources. The 
 
 ★&nbsp;stands here for Editors' Choice.
 
-This list is not intended to include any random resource related to Ruby programming (we already have a most complete gem catalogue at [ruby-toolbox.com](https://ruby-toolbox.com)), but only the best and most actual alternatives in each area. You will find here latest editions of the most important books, time and community tested gems (alive projects only!), and actively updated websites. *Sharing and pull requests are very much appreciated!*
+This list is not intended to include any random resource related to Ruby programming (we already have a most complete gem catalogue at [ruby-toolbox.com](https://ruby-toolbox.com) and [Awesome Ruby](https://ruby.libhunt.com)), but only the best and most actual alternatives in each area. You will find here latest editions of the most important books, time and community tested gems (alive projects only!), and actively updated websites. *Sharing and pull requests are very much appreciated!*
 
 **[Fork and edit](https://github.com/dreikanter/ruby-bookmarks/edit/master/README.md)**
 
@@ -63,7 +63,7 @@ PS: Check out [awesome-awesomeness](https://github.com/bayandin/awesome-awesomen
   - [Rack](#rack)
   - [Rails](#rails)
   - [Scheduling](#scheduling)
-  - [SDKs and API Wrapers](#sdks-and-api-wrapers)
+  - [SDKs and API Wrappers](#sdks-and-api-wrappers)
   - [Search](#search)
   - [Security](#security)
   - [Serialization](#serialization)
@@ -76,11 +76,12 @@ PS: Check out [awesome-awesomeness](https://github.com/bayandin/awesome-awesomen
 ## Books
 
 ### For beginners and intermediate level developers
-- [Why's Poignant Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/) by Why the Lucky Stiff
+
 - ★ Eloquent Ruby by *Russ Olsen*. [Official site](http://eloquentruby.com/), [Amazon](http://www.amazon.com/Eloquent-Ruby-Addison-Wesley-Professional/dp/0321584104/).
 - [Programming Ruby 1.9 & 2.0](http://pragprog.com/book/ruby4/programming-ruby-1-9-2-0) by Dave Thomas, Andy Hunt, and Chad Fowler.
 - [Learn Ruby The Hard Way](http://ruby.learncodethehardway.org/book/) by Zed A. Shaw. Available to pre-order at [amazon](http://www.amazon.com/Learn-Ruby-Hard-Shaws-Series/dp/032188499X).
 - [The Ruby Programming Language](http://www.amazon.com/Ruby-Programming-Language-David-Flanagan/dp/0596516177) by David Flanagan and Yukihiro "Matz" Matsumoto.
+- [Why's Poignant Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/) by Why the Lucky Stiff
 
 ### Advancing Ruby knowledge
 
@@ -92,14 +93,16 @@ PS: Check out [awesome-awesomeness](https://github.com/bayandin/awesome-awesomen
 - [Practical Object-Oriented Design in Ruby](http://poodr.com) by Sandi Metz.
 - [Clean Ruby](http://clean-ruby.com/) by Jim Gay
 - [Reliably Deploying Rails Applications](https://leanpub.com/deploying_rails_applications) by Ben Dixon — a robust framework for provisioning servers with Chef and deploying reliably with Capistrano 3, including example code templates you can use directly.
+- [Rubyfu(@Rubyfu)](http://rubyfu.net) - Ruby for hackers book(Open source). Collection of ideas, tricks and skills that could be useful for Hackers.
+- [Demystifying Rails](https://launchschool.com/books/demystifying_rails/read/introduction) by Launch School — This book doesn't teach how to use Rails to build prototypes. Instead, this book dives one layer below the surface to expose how Rails is pieced together.
 
 ### Ruby on Rails for beginners
 
-- [Learn Ruby on Rails](http://learn-rails.com/learn-ruby-on-rails.html) by Daniel Kehoe. [Amazon](http://www.amazon.com/dp/B00QK2T1SY).
 - ★ The Rails 4 Way by *Obie Fernandez* and *Kevin Faustino*. [Amazon](http://www.amazon.com/Rails-Edition-Addison-Wesley-Professional-Series-ebook/dp/B00KKNO8YQ/), [Informit](http://www.informit.com/store/rails-4-way-9780321944276).
-- [Agile Web Development with Rails 4](http://www.amazon.com/Agile-Development-Rails-Facets-Ruby/dp/1937785564/) by Sam Ruby, Dave Thomas, and David Heinemeier Hansson.
+- [Agile Web Development with Rails 5](https://www.amazon.com/dp/1680501712/) by Sam Ruby, Dave Thomas, and David Heinemeier Hansson. (5.1 update on [Amazon](https://www.amazon.com/Agile-Web-Development-Rails-5-1/dp/1680502514/ref=sr_1_2) and [PragProg](https://pragprog.com/book/rails51/agile-web-development-with-rails-5-1))
 - [Rails 4 in Action](http://manning.com/bigg2) by Ryan Bigg, Yehuda Katz, Steve Klabnik, and Rebecca Skinner.
 - [The Ruby on Rails Tutorial](https://www.railstutorial.org/book) by Michael Hartl
+- [Learn Ruby on Rails](http://learn-rails.com/learn-ruby-on-rails.html) by Daniel Kehoe. [Amazon](http://www.amazon.com/dp/B00QK2T1SY).
 
 ### Ruby on Rails, advanced level
 
@@ -138,6 +141,7 @@ PS: Check out [awesome-awesomeness](https://github.com/bayandin/awesome-awesomen
 - [A Fresh Cup](http://afreshcup.com/) — links to new resources and insightful blog posts.
 - [Black Bytes](http://www.blackbytes.info) — Ruby tutorials
 - [Weissblog](http://www.justinweiss.com/blog/archives/) — Rails tutorials
+- [A Ruby Story](http://www.arubystory.com) - Ruby & Rails tutorials (with cat pictures).
 
 ## Screencasts and courses
 
@@ -239,7 +243,7 @@ See also:
 - [Thin](http://code.macournoyer.com/thin/) – A very fast & simple Ruby web server.
 - [Puma](https://github.com/puma/puma) — a Ruby web server built for concurrency.
 - [Pow!](http://pow.cx) — a zero-config Rack server for Mac OS X.
-    - [Powder](https://github.com/Rodreegez/powder) — user-friendly CLI wraper for Pow.
+    - [Powder](https://github.com/Rodreegez/powder) — user-friendly CLI wrapper for Pow.
     - [Powify](https://github.com/sethvargo/powify) — a management tool for Pow by 37 signals. It allows you to easily install, update, and manage pow and pow applications seamlessly.
 - [Prax](http://ysbaddaden.github.io/prax/) — a pure ruby alternative to Pow! that runs on GNU/Linux.
 - [TorqueBox](http://torquebox.org) — an application platform that supports popular technologies such as Ruby on Rails and Sinatra, while extending the footprint of Ruby applications to include built-in support for services such as messaging, scheduling, caching, and daemons. TorqueBox provides an all-in-one environment, built upon the latest JBoss AS Java application server and JRuby. Functionality such as clustering, load-balancing and high-availability is included right out-of-the-box.
@@ -266,13 +270,14 @@ See also:
 - [ngrok](https://ngrok.com) — introspected tunnels to localhost. ngrok creates a tunnel from the public internet (http://subdomain.ngrok.com) to a port on your local machine. You can give this URL to anyone to allow them to try out a web site you're developing without doing any deployment.
 - [eye](https://github.com/kostya/eye) — a process monitor.
 - [god](https://github.com/mojombo/god) - the Ruby Framework for Process Management
+- [DuckRails](https://github.com/iridakos/duckrails) - development tool for mocking API endpoints quickly & dynamically.
 
 ## Quizzes, tests, exams
 
 - [codequizzes.com](http://codequizzes.com) — learn programming by doing, not by reading.
 - [codewars.com](http://www.codewars.com) — achieve mastery through challenge.
 - [Smarterer.com](http://smarterer.com/home) — crowdsourced tests for Ruby, Rails, and a lot of other technologies.
-- [oDesk](https://www.odesk.com/tests) — a global freelance platform that includes qualification testing for programming languages and frameworkks.
+- [oDesk](https://www.odesk.com/tests) — a global freelance platform that includes qualification testing for programming languages and frameworks.
 
 ## Hosting
 
@@ -283,7 +288,6 @@ See also:
 ### PAAS
 
 - [Heroku](https://heroku.com) — cloud computing designed and built for developers. [More details](https://devcenter.heroku.com/categories/language-support#ruby) on Ruby support.
-- [NineFold](https://ninefold.com) — Rails-friendly hosting with a generous free tier (1.5 GB RAM, 1 CPU, 25 GB for DataBase server in the US region). Credit card required even if you fit the free tier.
 - [OpenShift](https://www.openshift.com) — Red Hat's Platform-as-a-Service that allows developers to quickly develop, host, and scale applications in a cloud environment. Capable for Rails apps [git-push deployment](https://www.openshift.com/developers/ruby). There also [a free tier](https://www.openshift.com/products/pricing) (no credit card required).
 - [AppFog](https://appfog.com) — another developer-friendly cloud service.
 
@@ -462,6 +466,7 @@ Best suited for map-reduce or e.g. parallel downloads/uploads.
 - [Peek::Rblineprof](https://github.com/peek/peek-rblineprof) — peek into how much each line of your Rails application takes throughout a request.
 - [Bullet](https://github.com/flyerhzm/bullet) — a gem to help to increase application's performance by reducing the number of queries it makes. It will watch your queries while you develop your application and notify you when you should add eager loading (N+1 queries), when you're using eager loading that isn't necessary and when you should use counter cache.
 - [rack-mini-profiler](https://github.com/MiniProfiler/rack-mini-profiler) — middleware that displays speed badge for every html page. Designed to work both in production and in development.
+- [Instrumental](https://github.com/Instrumental/instrumental_agent-ruby) — Real-time performance monitoring with a non-blocking and non-exception causing agent.
 
 ### Rack
 
@@ -498,7 +503,7 @@ Best suited for map-reduce or e.g. parallel downloads/uploads.
 Validation:
 
 - [email_validator](https://github.com/balexand/email_validator) — an email validator for Rails 3 and 4.
-- [validates_email_format_of](https://github.com/validates-email-format-of/validates_email_format_of) — validate e-mail addreses against RFC 2822 and RFC 3696 with this Ruby on Rails plugin and gem.
+- [validates_email_format_of](https://github.com/validates-email-format-of/validates_email_format_of) — validate e-mail addresses against RFC 2822 and RFC 3696 with this Ruby on Rails plugin and gem.
 
 ### Scheduling
 
@@ -511,7 +516,7 @@ Validation:
 - [Clockwork](https://github.com/tomykaira/clockwork) — a cron replacement. It runs as a lightweight, long-running Ruby process which sits alongside your web processes (Mongrel/Thin) and your worker processes (DJ/Resque/Minion/Stalker) to schedule recurring work at particular times or dates. Here is a [blog post](http://adam.herokuapp.com/past/2010/4/13/rethinking_cron/) with more details.
 - [Whenever](https://github.com/javan/whenever) — a Ruby wrapper for crond, with a clear syntax (each job is a separate process).
 
-### SDKs and API Wrapers
+### SDKs and API Wrappers
 
 - [AWS SDK](http://aws.amazon.com/sdkforruby/) — Amazon Web Services API for Ruby.
 - [Dropbox Core API](https://www.dropbox.com/developers/core/start/ruby) for Ruby.
